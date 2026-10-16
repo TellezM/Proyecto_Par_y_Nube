@@ -21,9 +21,8 @@ struct Config {
     int num_threads;
 };
 
-// ============================================================================
-// LECTURA Y ESCRITURA DE CSV
-// ============================================================================
+
+
 
 // Lee el CSV asumiendo formato "x,y" sin encabezados
 void leerCSV(const string& filename, vector<float>& x, vector<float>& y) {
@@ -56,9 +55,11 @@ void escribirCSV(const string& filename, const vector<float>& x, const vector<fl
     file.close();
 }
 
-// ============================================================================
+
+
+
 // FUNCIÓN DE DISTANCIA
-// ============================================================================
+
 
 // Distancia euclidiana al cuadrado (evita sqrt para optimizar)
 inline float dist2(float x1, float y1, float x2, float y2) {
@@ -67,9 +68,11 @@ inline float dist2(float x1, float y1, float x2, float y2) {
     return dx * dx + dy * dy;
 }
 
-// ============================================================================
+
+
 // ALGORITMOS DE DETECCIÓN DE RUIDO DBSCAN
-// ============================================================================
+
+
 
 // --- 1. VERSIÓN SERIAL ---
 void dbscan_serial(const vector<float>& x, const vector<float>& y, vector<int>& labels, float eps, int min_samples) {
@@ -252,9 +255,12 @@ void dbscan_p2(const vector<float>& x, const vector<float>& y, vector<int>& labe
     }
 }
 
-// ============================================================================
+
+
+
 // MAIN
-// ============================================================================
+
+
 int main(int argc, char* argv[]) {
     if (argc < 8) {
         cerr << "Uso: " << argv[0] << " <in.csv> <out.csv> <eps> <min_samples> <version: serial|p1|p2> <k> <hilos>" << endl;
