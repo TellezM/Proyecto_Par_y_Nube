@@ -1,3 +1,12 @@
-*.csv
+# Archivos que se vuelven a generar y pesan: no se suben
+datos/
+*_data.csv
+salida*.csv
+out_*.csv
+salida_tmp.csv
 dbscan
-runner
+dbscan.exe
+dbscan_*
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
