@@ -26,8 +26,8 @@ y tiene tres versiones:
 
 Los dos documentos de la entrega están en Google Docs (así se pueden corregir sin actualizar el repositorio):
 
-- Descripción del código y de las estrategias de paralelización: PEGAR_LINK_DOC1
-- Evaluación experimental de desempeño: PEGAR_LINK_DOC2
+- [Descripción del código y de las estrategias de paralelización](https://docs.google.com/document/d/1SjLe5U_sEavYV4bmmF4A8xFXu8swvr04/edit?usp=sharing)
+- [Evaluación experimental de desempeño](https://docs.google.com/document/d/1V6SehjfWGXJ1DAQDF3ad0bw01f9F4jOW/edit?usp=sharing)
 
 ## Compilar y ejecutar
 
