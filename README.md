@@ -17,11 +17,17 @@ y tiene tres versiones:
 |---|---|
 | `proy_ruido.cpp` | Código final del algoritmo (comentado en español). |
 | `DBSCAN_noise.ipynb` | Libreta del curso (generar datos, graficar y calcular speedups). |
-| `entregables/` | Los dos documentos de la entrega, en Word y PDF. |
 | `scripts/` | Programas de apoyo: generar datos, correr el experimento, analizar resultados, probar correctitud. |
 | `resultados/` | Datos: tiempos de todas las corridas y su resumen, datos de los estudios, hardware. |
 | `imagenes/` | Gráficas y capturas que aparecen en los documentos (`experimento/`, `estudio_decision/`, `capturas/`). |
 | `estudio_decision/` | Código del estudio previo con el que se decidió cómo paralelizar. |
+
+## Entregables
+
+Los dos documentos de la entrega están en Google Docs (así se pueden corregir sin actualizar el repositorio):
+
+- Descripción del código y de las estrategias de paralelización: PEGAR_LINK_DOC1
+- Evaluación experimental de desempeño: PEGAR_LINK_DOC2
 
 ## Compilar y ejecutar
 
